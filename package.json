@@ -1,0 +1,23 @@
+{
+  "name": "scada-2.0",
+  "version": "1.0.0",
+  "description": "Factory Digital Twin / SCADA 2.0 Master Data & System Platform",
+  "scripts": {
+    "test": "node data/machines/test_suite.js",
+    "validate": "node data/machines/validate.js",
+    "validate:py": "python data/machines/master_data_loader.py"
+  },
+  "keywords": [
+    "scada",
+    "digital-twin",
+    "industry4.0",
+    "factory-master-data"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "tsx": "^4.7.0",
+    "typescript": "^5.0.0"
+  }
+}
